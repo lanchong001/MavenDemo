@@ -6,6 +6,7 @@ package com.lym.javademo.Java_Array_Operator;
  */
 public class ArrayCapacityExpansion {
     //如何在数组初始化后对数组进行扩容
+
     public static void main(String[] args) {
         String[] names = new String[] { "A", "B", "C" };
         String[] extended = new String[5];   //初始化一个大的数据
