@@ -11,7 +11,7 @@ public class FileDelete {
 
     public static void main(String[] args){
         // 删除当前目录下的 test 目录
-        deleteDir(new File("G:\\日常积累\\JAVA\\MavenDemo\\DemoMenu\\test"));
+        deleteDir(new File("G:\\study\\JAVA\\MavenDemo\\DemoMenu\\test"));
     }
 
     public static boolean deleteDir(File dir) {

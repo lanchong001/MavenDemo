@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class FileGetParent {
     public static void main(String[] args){
-        File file = new File("G:\\日常积累\\JAVA\\MavenDemo\\DemoMenu");
+        File file = new File("G:\\study\\JAVA\\MavenDemo\\DemoMenu");
         String parentDir = file.getParent();
         //file.getParent() 返回上一级目录路径
         System.out.println("文件的上级目录为 : " + parentDir);

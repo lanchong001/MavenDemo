@@ -12,7 +12,7 @@ public class FileUtilsSizeofDirectory {
     public static void main(String[] args){
 
         //ileUtils.sizeOfDirectory(file)  //获取file文件夹或者文件的大小
-        long size = FileUtils.sizeOfDirectory(new File("G:\\日常积累\\JAVA\\MavenDemo\\DemoMenu"));
+        long size = FileUtils.sizeOfDirectory(new File("G:\\study\\JAVA\\MavenDemo\\DemoMenu"));
         System.out.println("Size: " + size + " bytes");
     }
 }

@@ -10,7 +10,7 @@ import java.io.File;
 public class FileIsEmpty {
     public static void main(String[] args)
     {
-        File file = new File("G:\\日常积累\\JAVA\\MavenDemo\\DemoMenu");
+        File file = new File("G:\\study\\JAVA\\MavenDemo\\DemoMenu");
         if(file.isDirectory())  //判断是否是文件夹
         {
             String[] files = file.list();   //获取当前文件夹下的所有文件路径

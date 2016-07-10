@@ -10,7 +10,7 @@ import java.util.Date;
  */
 public class FileLastModified {
     public static void main(String[] args){
-        File file = new File("G:\\日常积累\\JAVA\\MavenDemo\\DemoMenu\\1.txt");
+        File file = new File("G:\\study\\JAVA\\MavenDemo\\DemoMenu\\1.txt");
         System.out.println("最后修改时间为： " + new Date(file.lastModified()));
 
         //file.lastModified() 获取当前文件或者文件夹的最后修改时间，返回长整型的时间戳

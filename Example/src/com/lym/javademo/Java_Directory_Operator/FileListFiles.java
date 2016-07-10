@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class FileListFiles {
     public static void main(String[] args) throws IOException {
-        showDir(3,new File("G:\\日常积累\\JAVA\\MavenDemo\\DemoMenu"));
+        showDir(3,new File("G:\\study\\JAVA\\MavenDemo\\DemoMenu"));
     }
 
     //递归遍历目录

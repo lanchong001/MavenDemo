@@ -10,7 +10,7 @@ import java.io.File;
 public class FileList {
 
     public static void main(String[] args) throws Exception {
-        File dir = new File("G:\\日常积累\\JAVA\\MavenDemo\\DemoMenu");
+        File dir = new File("G:\\study\\JAVA\\MavenDemo\\DemoMenu");
         String[] children = dir.list();
 
         //注意：dir.list() 当当前路径下没有任何文件或者文件夹时，返回的结果children不为空, children = {};

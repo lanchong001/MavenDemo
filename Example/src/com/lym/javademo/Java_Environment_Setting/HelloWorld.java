@@ -30,7 +30,7 @@ public class HelloWorld {
 
 在终端Terminal窗口：
 
-    cd G:\日常积累\JAVA\MavenDemo\Example\src\com\lym\javademo\Java_Environment_Setting>
+    cd G:\study\JAVA\MavenDemo\Example\src\com\lym\javademo\Java_Environment_Setting>
 
     javac -encoding UTF-8 HelloWorld.java //编译生成 HelloWorld.class文件
 

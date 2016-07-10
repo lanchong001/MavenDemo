@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class FileIsHidden {
     public static void main(String[] args){
-        File file = new File("G:\\日常积累\\JAVA\\MavenDemo\\DemoMenu");
+        File file = new File("G:\\study\\JAVA\\MavenDemo\\DemoMenu");
         System.out.print(file.isHidden());
 
         //file.isHidden()  判断当前文件或者文件夹是否已经设置了隐藏属性
