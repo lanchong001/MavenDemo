@@ -12,6 +12,12 @@ import java.util.LinkedList;
  */
 public class LinkedListEmp {
 
+    /*
+        ArrayList、LinkedList、Vector 3者区别：
+        Vector: 底层数据结构也是数组结构,线程安全，查询数据慢,插入数据慢
+        ArrayList: 底层数据结构也是数组结构,线程不安全，查询数据快
+        LinkedList: 底层数据结构是 链表结构。对元素的增删速度很快。但是查询速度很慢。线程是不安全的。
+    */
     @SuppressWarnings("unchecked")
     public static void main(String[] args){
         LinkedList lList = new LinkedList();
