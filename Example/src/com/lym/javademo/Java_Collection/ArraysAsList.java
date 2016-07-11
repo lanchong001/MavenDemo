@@ -1,11 +1,17 @@
 package com.lym.javademo.Java_Collection;
 
+
+
+
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
 /**
  * 数组转集合
+ * 集合转数组
  * Created by lym on 2016/7/10.
  */
 public class ArraysAsList {
@@ -24,5 +30,31 @@ public class ArraysAsList {
         for(String li: list){
             System.out.print(li + " ");
         }
+        System.out.println();
+
+        //list.toArray(new String[list.size()]) 将一个list集合转换成为与集合长度一样大小的数组
+        String[] newNames = list.toArray(new String[list.size()]);
+
+        //System.out.println(String.format("%s,%s,%s", newNames));  //必须按照数组长度显示百分号
+
+        System.out.println("ArrayToStringJoin " + ArrayToStringJoin(newNames, ","));
+        // StringUtils.join(newNames, ",") 数组转字符串,按","进行分割
+        System.out.println("StringUtils.join(newNames, \",\") " + StringUtils.join(newNames, ","));
+    }
+
+    private static String ArrayToStringJoin(String[] array, String join)
+    {
+        String result = "";
+        if(array != null && array.length > 0)
+        {
+            int length = array.length;
+            String format = "";
+            for (String anArray : array) {
+                format += "%s" + join;
+            }
+            result = String.format(format,array);
+            result = result.substring(0,result.length() -1);
+        }
+        return result;
     }
 }

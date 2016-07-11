@@ -1,11 +1,10 @@
 package com.lym.javademo.Java_Collection;
 
-import java.util.Collections;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * 集合比较
+ *  查找 List 中的最大最小值
  * Created by lym on 2016/7/10.
  */
 public class CollectionsMinMax {
@@ -39,5 +38,10 @@ public class CollectionsMinMax {
 
         //字符串的大小比较实际是从第一个字符开始，比较字符的ASCII的大小，如果第一个相等，则比较第二个字符
 
+        //如何使用 Collections 类的 max() 和 min() 方法来获取List中最大最小值
+        List list = Arrays.asList("one Two three Four five six one three Four".split(" "));
+        System.out.println(list);
+        System.out.println("最大值: " + Collections.max(list));
+        System.out.println("最小值: " + Collections.min(list));
     }
 }
