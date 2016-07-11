@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c31a543d-bf26-4565-8701-d1759456147f" name="Default" comment="java collection 实例">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/ArrayListHashMapHashSetLinkedHashMapTreeSetLinkedHashSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/ArrayListHashSetFor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsIndexOfSubListLastIndexOfSubList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsReplaceAll.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsRotate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsShuffle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsUnmodifiableList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/HashSetRemove.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/HashTableEmp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/ListIteratorCollectionsReverse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/TreeMapEmp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/ArraysAsList.java" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/ArraysAsList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsMinMax.java" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsMinMax.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/Example.iml" afterPath="$PROJECT_DIR$/Example/Example.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MavenDemo.iml" afterPath="$PROJECT_DIR$/MavenDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list default="true" id="c31a543d-bf26-4565-8701-d1759456147f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Network/InetAddressGetByName.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MavenDemo.iws" />
@@ -47,18 +30,7 @@
     <favorites_list name="MavenDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CollectionsMinMax.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsMinMax.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33516484" vertical-offset="292" max-vertical-offset="1219">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Directory_Operator/FileGetParent.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Directory_Operator/FileIsEmpty.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Directory_Operator/FileIsHidden.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Directory_Operator/FileLastModified.java" />
@@ -120,6 +91,7 @@
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/ListIteratorCollectionsReverse.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/ArraysAsList.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/ArrayListHashMapHashSetLinkedHashMapTreeSetLinkedHashSet.java" />
+        <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Network/InetAddressGetByName.java" />
       </list>
     </option>
   </component>
@@ -526,35 +498,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1005" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
-  <component name="RunManager" selected="Application.CollectionsIndexOfSubListLastIndexOfSubList">
-    <configuration default="false" name="ArraysAsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lym.javademo.Java_Collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.lym.javademo.Java_Collection.ArraysAsList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Example" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.InetAddressGetByName">
     <configuration default="false" name="CollectionsMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -629,6 +573,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.lym.javademo.Java_Collection.CollectionsIndexOfSubListLastIndexOfSubList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Example" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InetAddressGetByName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lym.javademo.Java_Network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lym.javademo.Java_Network.InetAddressGetByName" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -909,19 +875,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ArraysAsList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CollectionsMinMax" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HashTableEmp" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CollectionsReplaceAll" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CollectionsIndexOfSubListLastIndexOfSubList" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CollectionsMinMax" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HashTableEmp" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CollectionsReplaceAll" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CollectionsIndexOfSubListLastIndexOfSubList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InetAddressGetByName" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CollectionsIndexOfSubListLastIndexOfSubList" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CollectionsReplaceAll" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HashTableEmp" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CollectionsMinMax" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArraysAsList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.InetAddressGetByName" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CollectionsIndexOfSubListLastIndexOfSubList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CollectionsReplaceAll" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HashTableEmp" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CollectionsMinMax" />
       </list>
     </recent_temporary>
   </component>
@@ -943,7 +909,7 @@
       <workItem from="1468085216587" duration="503000" />
       <workItem from="1468133943116" duration="11976000" />
       <workItem from="1468151771375" duration="14850000" />
-      <workItem from="1468236935369" duration="13032000" />
+      <workItem from="1468236935369" duration="13821000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1468085461131</created>
@@ -1011,11 +977,17 @@
       <option name="project" value="LOCAL" />
       <updated>1468167881407</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="java collection 实例">
+      <created>1468251868366</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1468251868367</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63321000" />
+    <option name="totallyTimeSpent" value="64110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1031,11 +1003,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11153263" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6365132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2450658" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1117,34 +1089,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Exception_Handler/CustomException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5580589" vertical-offset="138" max-vertical-offset="920">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Exception_Handler/FinallyEmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Exception_Handler/OverloadingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="989">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Exception_Handler/NestedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19930676" vertical-offset="92" max-vertical-offset="759">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Exception_Handler/ThreadException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="203" max-vertical-offset="874">
@@ -1549,9 +1493,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsMinMax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33516484" vertical-offset="292" max-vertical-offset="1219">
+        <state vertical-scroll-proportion="0.21631205" vertical-offset="292" max-vertical-offset="1219">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24468085" vertical-offset="1587" max-vertical-offset="20102">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4964539" vertical-offset="20834" max-vertical-offset="26588">
+          <caret line="961" column="32" selection-start-line="961" selection-start-column="32" selection-end-line="961" selection-end-column="32" />
+          <folding>
+            <element signature="e#39820#39821#0" expanded="true" />
+            <element signature="e#39869#39870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.820922" vertical-offset="8920" max-vertical-offset="35374">
+          <caret line="189" column="6" selection-start-line="189" selection-start-column="6" selection-end-line="189" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Network/InetAddressGetByName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34751773" vertical-offset="172" max-vertical-offset="828">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
