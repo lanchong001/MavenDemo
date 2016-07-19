@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c31a543d-bf26-4565-8701-d1759456147f" name="Default" comment="shi">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/LockTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/UnLockTest.java" />
+    <list default="true" id="c31a543d-bf26-4565-8701-d1759456147f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/GetThreadIDTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MavenDemo.iws" />
@@ -37,20 +36,7 @@
     <favorites_list name="MavenDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UnLockTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/UnLockTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33152175" vertical-offset="315" max-vertical-offset="2277">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_File_Operator/FileRenameTo.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_File_Operator/FileExists.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_File_Operator/FileCreateNewFile.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_File_Operator/FileCompareTo.java" />
@@ -112,6 +97,7 @@
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/ThreadSetPriority.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/LockTest.java" />
         <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/UnLockTest.java" />
+        <option value="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/GetThreadIDTest.java" />
       </list>
     </option>
   </component>
@@ -546,29 +532,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Application.UnLockTest">
-    <configuration default="false" name="ThreadIsAive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lym.javademo.Java_Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.lym.javademo.Java_Thread.ThreadIsAive" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Example" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.GetThreadIDTest">
     <configuration default="false" name="ThreadGetState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -655,6 +619,32 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GetThreadIDTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lym.javademo.Java_Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lym.javademo.Java_Thread.GetThreadIDTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Example" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -923,19 +913,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ThreadIsAive" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ThreadGetState" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ThreadSetPriority" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LockTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UnLockTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ThreadGetState" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ThreadSetPriority" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LockTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UnLockTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GetThreadIDTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UnLockTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LockTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ThreadSetPriority" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ThreadGetState" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ThreadIsAive" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GetThreadIDTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UnLockTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LockTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ThreadSetPriority" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ThreadGetState" />
       </list>
     </recent_temporary>
   </component>
@@ -960,7 +950,7 @@
       <workItem from="1468236935369" duration="14340000" />
       <workItem from="1468764587587" duration="5588000" />
       <workItem from="1468851959350" duration="4972000" />
-      <workItem from="1468938933506" duration="1941000" />
+      <workItem from="1468938933506" duration="4100000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1468085461131</created>
@@ -1052,11 +1042,17 @@
       <option name="project" value="LOCAL" />
       <updated>1468856960788</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="shi">
+      <created>1468940892672</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1468940892672</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77130000" />
+    <option name="totallyTimeSpent" value="79289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1065,7 +1061,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3223684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3223684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1076,7 +1072,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.84539473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2450658" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1160,20 +1156,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="2181" max-vertical-offset="10097">
-          <caret line="126" column="44" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/RandomAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6811092" vertical-offset="596" max-vertical-offset="1173">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Collection/CollectionsReplaceAll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5921986" vertical-offset="57" max-vertical-offset="621">
@@ -1521,10 +1503,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/UnLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33152175" vertical-offset="315" max-vertical-offset="2277">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.7464539" vertical-offset="384" max-vertical-offset="2277">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="2802" max-vertical-offset="14904">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="167" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Thread/GetThreadIDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.9148936" vertical-offset="0" max-vertical-offset="2944">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
           </folding>
         </state>
       </provider>
