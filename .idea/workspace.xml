@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c31a543d-bf26-4565-8701-d1759456147f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/target/classes/com/lym/javademo/Java_Directory_Operator/FileUtilsSizeofDirectory.class" afterPath="$PROJECT_DIR$/Example/target/classes/com/lym/javademo/Java_Directory_Operator/FileUtilsSizeofDirectory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Directory_Operator/FileUtilsSizeofDirectory.java" afterPath="$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Directory_Operator/FileUtilsSizeofDirectory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/pom.xml" afterPath="$PROJECT_DIR$/Example/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MavenDemo.iws" />
@@ -42,8 +39,8 @@
       <file leaf-file-name="FileUtilsSizeofDirectory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Directory_Operator/FileUtilsSizeofDirectory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23774765" vertical-offset="0" max-vertical-offset="959">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.09906152" vertical-offset="0" max-vertical-offset="959">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -511,7 +508,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.28916666" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -965,7 +962,7 @@
       <workItem from="1478954261604" duration="128000" />
       <workItem from="1479039344537" duration="336000" />
       <workItem from="1479045248199" duration="1291000" />
-      <workItem from="1479047249771" duration="942000" />
+      <workItem from="1479047249771" duration="1396000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1468085461131</created>
@@ -1087,11 +1084,17 @@
       <option name="project" value="LOCAL" />
       <updated>1469113550697</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="java Thread 实例">
+      <created>1479048416943</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1479048416943</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91531000" />
+    <option name="totallyTimeSpent" value="91985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -1553,8 +1556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Example/src/com/lym/javademo/Java_Directory_Operator/FileUtilsSizeofDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23774765" vertical-offset="0" max-vertical-offset="959">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.09906152" vertical-offset="0" max-vertical-offset="959">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
