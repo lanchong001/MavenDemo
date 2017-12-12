@@ -13,7 +13,6 @@ public class ArrayEquals {
         int[] ary1 = {1,2,3,4,5,6};
         int[] ary2 = {1,2,3,4};
 
-
         //Arrays.equals() 此方法有9个重载方法,针对8中基本类型的数组和Object数组
         //        public static boolean equals(long[] a, long[] a2)
         //        public static boolean equals(int[] a, int[] a2)
